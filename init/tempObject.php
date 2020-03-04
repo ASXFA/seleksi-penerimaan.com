@@ -1,0 +1,151 @@
+<?php
+
+/*temp:$location*/
+	$location=htmlspecialchars('');
+/*set:.main_menu*/
+	$tampil_menu1=htmlspecialchars('PENDAFTARAN');
+	$tampil_menu2=htmlspecialchars('CHECK KELULUSAN');
+	$tampil_menu3=htmlspecialchars('DATA PRIBADI');
+	$tampil_menu4=htmlspecialchars('LOGIN');
+	$tampil_menu5=htmlspecialchars('CHECK NISN');
+	$tampil_menu6=htmlspecialchars('SELEKSI UJIAN');
+	$tampil_menu7=htmlspecialchars('BUAT SOAL');
+		$tampil_sub_menu4_1=htmlspecialchars('Dashboard Admin');
+		$tampil_sub_menu4_2=htmlspecialchars('Logout');
+/*temp:$section_page*/
+	$menu1=htmlspecialchars('pendaftaran');
+	$menu2=htmlspecialchars('check_kelulusan');
+	$menu3=htmlspecialchars('data_pribadi');
+	$menu4=htmlspecialchars('login');
+	$menu5=htmlspecialchars('check_nisn');
+	$menu6=htmlspecialchars('seleksi_ujian');
+	$menu7=htmlspecialchars('buat_soal');
+		$sub_menu4_1=htmlspecialchars('dashboard_admin');
+		$sub_menu4_2=htmlspecialchars('logout');
+/*temp:$login.php*/
+	$header_login=htmlspecialchars('login');
+	$content_login1=htmlspecialchars('username');
+	$content_login2=htmlspecialchars('password');
+	$content_login3=htmlspecialchars('submit_login');
+/*temp:$login.php*/
+	$input_nisn=htmlspecialchars('input_nisn');
+	$button_check_nisn=htmlspecialchars('button_check_nisn');
+/*temp:$pendaftaraan.php*/
+	$pendaftaran_siswa=htmlspecialchars('pendaftaran_siswa');
+	$actionOnClick_pendaftaran_siswa=htmlspecialchars('pendaftaran_siswa');
+/*temp:$check_kelulusan.php*/
+	$button_check_kelulusan_T=htmlspecialchars('button_check_kelulusan_T');
+	$button_check_kelulusan_F=htmlspecialchars('button_check_kelulusan_F');
+/*temp:$input_text*/
+	$input_text=htmlspecialchars('');
+	$input_text1=htmlspecialchars('');
+	$input_text2=htmlspecialchars('');
+	$input_text3=htmlspecialchars('');
+	$input_text4=htmlspecialchars('');
+	$input_text5=htmlspecialchars('');
+	$input_text6=htmlspecialchars('');
+	$input_text7=htmlspecialchars('');
+	$input_text8=htmlspecialchars('');
+	$input_text9=htmlspecialchars('');
+	$input_text10=htmlspecialchars('');
+/*temp:$output_text*/
+	$output_text=htmlspecialchars('');
+	$output_text1=htmlspecialchars('');
+	$output_text2=htmlspecialchars('');
+	$output_text3=htmlspecialchars('');
+	$output_text4=htmlspecialchars('');
+	$output_text5=htmlspecialchars('');
+	$output_text6=htmlspecialchars('');
+	$output_text7=htmlspecialchars('');
+	$output_text8=htmlspecialchars('');
+	$output_text9=htmlspecialchars('');
+	$output_text10=htmlspecialchars('');
+	$output_text11=htmlspecialchars('');
+	$output_text12=htmlspecialchars('');
+	$output_text13=htmlspecialchars('');
+	$output_text14=htmlspecialchars('');
+	$output_text15=htmlspecialchars('');
+	$output_text16=htmlspecialchars('');
+	$output_text17=htmlspecialchars('');
+	$output_text18=htmlspecialchars('');
+	$output_text19=htmlspecialchars('');
+	$output_text20=htmlspecialchars('');
+/*temp:$input_array*/
+	$input_array=array();
+	$input_array1=array();
+	$input_array2=array();
+	$input_array3=array();
+	$input_array4=array();
+	$input_array5=array();
+	$input_array6=array();
+	$input_array7=array();
+	$input_array8=array();
+	$input_array9=array();
+	$input_array10=array();
+/*temp:$output_array*/
+	$output_array=array();
+	$output_array1=array();
+	$output_array2=array();
+	$output_array3=array();
+	$output_array4=array();
+	$output_array5=array();
+	$output_array6=array();
+	$output_array7=array();
+	$output_array8=array();
+	$output_array9=array();
+	$output_array10=array();
+	$output_array11=array();
+	$output_array12=array();
+	$output_array13=array();
+	$output_array14=array();
+	$output_array15=array();
+	$output_array16=array();
+	$output_array17=array();
+	$output_array18=array();
+	$output_array19=array();
+	$output_array20=array();
+/*temp:$data_pribadi*/
+	$id_peserta=htmlspecialchars('');
+	$nisn=htmlspecialchars('');
+	$password=htmlspecialchars('');
+	$nama=htmlspecialchars('');
+	$tempat_lahir=htmlspecialchars('');
+	$tanggal_lahir=htmlspecialchars('');
+	$alamat=htmlspecialchars('');
+	$nama_ortu=htmlspecialchars('');
+	$pendidikan_ortu=htmlspecialchars('');
+	$pekerjaan_ortu=htmlspecialchars('');
+	$penghasilan_ortu=htmlspecialchars('');
+	$no_telp=htmlspecialchars('');
+	$nilai_ipa=htmlspecialchars('');
+	$nilai_matematika=htmlspecialchars('');
+	$nilai_bhs_indo=htmlspecialchars('');
+	$nilai_bhs_inggris=htmlspecialchars('');
+	$bukti_pembayaran=htmlspecialchars('');
+	$verifikasi=htmlspecialchars('');
+	$id_admin=htmlspecialchars('');
+	$slider=htmlspecialchars('');
+/*temp:$check_kelulusan*/
+	$check_kelulusan=htmlspecialchars('check_kelulusan');
+	$check_kelulusan_T=htmlspecialchars('check_kelulusan_T');
+	$check_kelulusan_F=htmlspecialchars('check_kelulusan_F');
+	$ubah_kelulusan_T=htmlspecialchars('ubah_kelulusan_T');
+	$ubah_kelulusan_F=htmlspecialchars('ubah_kelulusan_F');
+
+/*temp:$seleksi_ujian*/
+	$button_seleksi=htmlspecialchars('button_seleksi');
+	$input_password=htmlspecialchars('input_password');
+	$input_nisn=htmlspecialchars('input_nisn');
+
+/*temp:$buat_ujian*/
+	$buat_ujian=htmlspecialchars('');
+
+/*temp:$soal_ujian*/
+	$choice_0=htmlspecialchars('');
+	$choice_A=htmlspecialchars('choice_A');
+	$choice_B=htmlspecialchars('choice_B');
+	$choice_C=htmlspecialchars('choice_C');
+	$choice_D=htmlspecialchars('choice_D');
+	$choice_E=htmlspecialchars('choice_E');
+	$button_save=htmlspecialchars('button_save');
+?>

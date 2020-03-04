@@ -1,0 +1,110 @@
+/* modify identifier */
+
+
+.transparent_05{
+	opacity: 0.5;
+}
+
+.transparent_06{
+	opacity: 0.6;
+}
+
+.transparent_07{
+	opacity: 0.7;
+}
+
+.transparent_08{
+	opacity: 0.8;
+}
+
+.transparent_09{
+	opacity: 0.9;
+}
+
+.clear_transparent{
+	opacity: 1;
+}
+
+.text_bold{
+	font-weight: bold;
+}
+
+.text_bolder{
+	font-weight: bolder;
+}
+.list_style{
+	background: #eee;
+	border: #000 2px solid;
+	display: block;
+	text-decoration: none;
+	position: relative;
+}
+.font_style_menu{
+	font-family: Verdana, Helvetica, Candara;
+	font-weight: bolder;
+	text-decoration: none;
+	font-size: 11px;
+	color: #000;
+}
+.item_hidden{
+	display: block;
+	visibility: hidden;
+}
+.button_clear{
+	background: transparent;
+	border: none;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+.text_upercase{
+	text-transform: uppercase;
+}
+.button_style{
+	background: #000;
+	border: none;
+	color: #fff;
+	font-size: 11px;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+.td_record{
+	background: #fff;
+	border-bottom: 2px solid #000;
+	font-size: 9px;
+	font-family: Verdana, Helvetica, Candara;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: thick;
+}
+.no_border{
+	border: 0px 0px 0px 0px transparent solid;
+}
+}
+.logo_pasundan{
+	max-width: 20px;
+	min-width: 20px;
+	max-height: 20px;
+	min-height: 20px;
+
+}
+
+.text_main_page{
+	max-width: 20px;
+	min-width: 20px;
+	max-height: 20px;
+	min-height: 20px;
+}
